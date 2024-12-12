@@ -1,0 +1,131 @@
+/* ::::CSS Sequence (6 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: componentContainer */
+/* Step3: component */
+/* Step4: row */
+/* Step5: column */
+/* Step6: contentContainer */
+
+
+/* Step1: parentContainer */
+/* <header>,<main> & <footer> */
+/* code written in Default CSS */
+
+/* Step2: componentContainer */
+.professionalCardContainer {
+    /* background-color: aqua; */
+    margin-top: 10rem;
+}
+
+/* Step3: component */
+.professionalCard {
+    /* background-color: bisque; */
+}
+
+/* Step4: row-1 */
+.headingBody {
+    /* background-color: salmon; */
+}
+
+/* Step5: column-1.1 */
+.heading {
+    /* background-color: seagreen; */
+}
+
+/* Step6: contentContainer */
+.heading h1 {
+    /* background-color: silver; */
+    margin-bottom: 0.5rem;
+    padding-top: 1rem;
+    font-family: 'Nexa', sans-serif;
+    font-size: 4.5rem;
+    font-weight: 600;
+    color: #040c26;
+    text-align: center;
+}
+
+.heading p {
+    /* background-color: darkgoldenrod; */
+    color: #d2151e;
+    margin-bottom: 2.5rem;
+    padding-top: 1rem;
+    font-family: 'FuturaPT-Book', serif;
+    font-size: 3rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* Step4: row-2 */
+.cardBody {
+    /* background-color: fuchsia; */
+    margin: 10rem 8rem;
+}
+
+/* Step5: column-2.1 */
+.card1 {
+    /* background-color: greenyellow; */
+    border: 1px solid #dfedf3;
+    border-radius: 1rem;
+    background-color: #fff;
+}
+
+/* Step6: contentContainer */
+.card1 a {
+    /* background-color: red; */
+    text-align: left;
+    color: #d2151e;
+    font-size: 8rem;
+    padding-left: 2rem;
+}
+
+.card1 p {
+    /* background-color: darkorange; */
+    font-family: 'FuturaPT-Book', serif;
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: start;
+    color: #040c26;
+    padding-left: 20px;
+    margin-bottom: 2rem;
+}
+
+/* Step5: column-3.2 */
+.details {
+    /* background-color: aqua; */
+    padding-left: 2rem;
+}
+
+/* Step6: contentContainer */
+.details img {
+    /* background-color: bisque; */
+}
+
+.span {
+    /* background-color: hotpink; */
+    /* margin-left: 2rem; */
+    margin-top: 3rem;
+}
+
+.blackClr {
+    color: #040c26;
+    margin-bottom: 0.5rem;
+    font-family: 'FuturaPT-Book', serif;
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: left;
+    margin-left: 2rem;
+}
+
+.span p {
+    color: #d2151e;
+    font-family: 'FuturaPT-Book', serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-align: left;
+}
+
+hr {
+    border: 1px solid #e6e9ea;
+    width: 100%;
+    /* background-color: #007BFF; */
+}

@@ -1,0 +1,155 @@
+/* ::::CSS Sequence (6 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: componentContainer */
+/* Step3: component */
+/* Step4: row */
+/* Step5: column */
+/* Step6: contentContainer */
+
+/* Step1: parentContainer */
+/* <header>,<main> & <footer> */
+/* code written in Default CSS */
+
+/* Step2: componentContainer */
+.threeCardContainer {
+  background-image: url(./assets/image/heroSection.jpg);
+  /* background-color: #dfedf3; */
+}
+
+/* Step3: component */
+.threeCard {
+  /* background-color: azure; */
+  margin-top: 8rem;
+}
+
+/* Step4: row */
+.threeCardBody {
+  /* background-color: #b30d6e; */
+  margin-top: 10rem;
+  margin-right: 5rem;
+  margin-left: 5rem;
+  margin-bottom: 5rem;
+  gap: 3rem;
+}
+
+/* Step5: column-1 */
+.decide {
+  border: 1px solid #fff;
+  background-color: #0072c6;
+  color: #fff;
+  position: relative;
+  padding-bottom: 4rem;
+}
+
+/* Step6: contentContainer */
+.decide h3 {
+  /* background-color: #5b9405; */
+  margin-top: 5rem;
+  font-family: 'Nexa-Bold', sans-serif;
+  font-size: 2.7rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.decide p {
+  /* background-color: #ff6347; */
+  font-family: 'FuturaPT-Book', sans-serif;
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 2rem;
+  font-weight: 100;
+}
+
+/* Step5: column-2 */
+.plan {
+  /* background-color: hsl(191, 92%, 48%);*/
+  border: 1px solid #fff;
+  background-color: #fff;
+  position: relative;
+  padding-bottom: 4rem;
+}
+
+/* Step6: contentContainer */
+.plan h3 {
+  /* background-color: #5b9405; */
+  /* margin-top: 3rem; */
+  margin-top: 5rem;
+  font-family: "Nexa-Bold", sans-serif;
+  font-size: 2.7rem;
+  font-weight: 700;
+  text-align: center;
+  color: #040c26;
+}
+
+.plan p {
+  /* background-color: #ff6347; */
+  font-family: "FuturaPT-Book", serif;
+  color: #040c26;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 2rem;
+  font-weight: 100;
+  /* padding-left: 2rem;
+  padding-right: 2rem; */
+}
+
+/* Step5: column-3 */
+.review {
+  background-color: #fff;
+  border: 1px solid #fff;
+  padding-bottom: 4rem;
+  position: relative;
+}
+
+/* Step6: contentContainer */
+.review h3 {
+  /* background-color: #5b9405; */
+  /* margin-top: 6rem; */
+  margin-top: 5rem;
+  font-family: "Nexa-Bold", sans-serif;
+  font-size: 2.7rem;
+  font-weight: 700;
+  text-align: center;
+  color: #040c26;
+}
+
+.review p {
+  /* background-color: #ff6347; */
+  font-family: 'FuturaPT-Book', serif;
+  color: #040c26;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 2rem;
+  font-weight: 100;
+}
+
+.cardNumber1 {
+  background-color: #fff;
+  color: #0072c6;
+  position: absolute;
+  top: -4rem;
+  border-radius: 50%;
+  width: 8rem;
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+  font-weight: 500;
+}
+
+.cardNumber2 {
+  background-color: #0072c6;
+  color: #fff;
+  position: absolute;
+  top: -4rem;
+  border-radius: 50%;
+  width: 8rem;
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+  font-weight: 500;
+}

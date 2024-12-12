@@ -1,0 +1,103 @@
+/* ::::CSS Sequence (6 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: componentContainer */
+/* Step3: component */
+/* Step4: row */
+/* Step5: column */
+/* Step6: contentContainer */
+
+
+/* Step1: parentContainer */
+/* <header>,<main> & <footer> */
+/* code written in Default CSS */
+
+/* Step2: componentContainer */
+.innovativeWebContainer {
+    /* background-color: #ffe4c4; */
+}
+
+/* Step3: component */
+.innovativeWeb {
+    background-color: #fff;
+}
+
+/* Step4: row */
+.innovativeWebBody {
+    /* background-color: #ff69b4; */
+    margin-top: 8rem;
+    margin-bottom: 20rem;
+}
+
+/* Step5: column */
+.innovativeDetails {
+    /* background-color: #14aeae; */
+    margin-left: 4rem;
+    margin-right: 6rem;
+}
+
+/* Step6: contentContainer */
+.innovativeDetails h4 {
+    /* background-color: #9e86b5; */
+    /* font-family: 'FuturaPT-Book', sans-serif; */
+    font-size: 3.0rem;
+    margin-bottom: 1.0rem;
+    font-weight: 400;
+    color: #d2151e;
+}
+
+.innovativeDetails h2 {
+    /* background-color:#0c246d ; */
+    font-family: 'FuturaPT-Book', sans-serif;
+    font-size: 5rem;
+    font-weight: 400;
+    color: #4c4c4c;
+}
+
+.innovativeDetails h3 {
+    /* background-color:#0c246d ; */
+    font-size: 5rem;
+    font-weight: 400;
+    color: #d2151e;
+}
+
+.innovativeDetails p {
+    /* background-color: #df9999; */
+    margin-bottom: 2.4rem;
+    margin-top: 3rem;
+}
+
+.quiz {
+    color: #4c4c4c;
+    font-family: 'FuturaPT-Demi', sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.paraDetails {
+    font-family: "FuturaPT-Book", sans-serif;
+    margin-bottom: 2.4rem;
+    font-size: 1.7rem;
+    color: #040c26;
+    text-align: justify;
+    line-height: 3.2rem;
+}
+
+.innovativeDetails button {
+    background-color: #dc143c;
+    color: #fff;
+    border: none;
+    border-radius: 0.2rem;
+    padding: 1rem 3rem;   
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.innovativeImage {
+    margin-top: 3rem;
+}
+
+.innovativeImage img {
+    /* background-color: aqua;*/
+    border-radius: 1.5rem;
+}

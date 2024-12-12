@@ -1,0 +1,130 @@
+/* ::::CSS Sequence (6 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: componentContainer */
+/* Step3: component */
+/* Step4: row */
+/* Step5: column */
+/* Step6: contentContainer */
+
+/* Step1: parentContainer */
+/* <header>,<main> & <footer> */
+/* code written in Default CSS */
+
+/* Step2: componentContainer */
+.cardContainer {
+  /* background-color: #dfedf3; */
+  margin-top: 10rem;
+}
+
+/* Step3: component */
+.card {
+  /* background-color: hotpink; */
+}
+
+/* Step4: row-1 */
+.titleBody {
+  /* background-color: darkgoldenrod; */
+}
+
+/* Step5: column */
+.title {
+  /* background-color: darkgrey; */
+}
+
+/* Step6: contentContainer */
+.title h1 {
+  /* background-color: fuchsia; */
+  font-family: 'Nexa', sans-serif;
+  font-size: 4rem;
+  color: #040c26;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.title p {
+  /* background-color: blueviolet; */
+  font-family: 'FuturaPT-Book', sans-serif;
+  color: #d2151e;
+  font-size: 3.5rem;
+  text-align: center;
+  margin-bottom: 4rem;
+  padding-top: 1rem;
+}
+
+/* Step4: row-3 */
+.cardBody {
+  /* background-color: aquamarine; */
+  gap: 4rem;
+  margin-top: 5rem;
+}
+/* Step5: column */
+.cardDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3rem;
+  padding-bottom: 8rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  /* border: 1px solid #ccc;  */
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  background-color: #f9f9f9;
+}
+
+/* Step6: contentContainer */
+.cardDetails img {
+  /* background-color: red; */
+  height: 10rem;
+  width: auto;
+}
+.cardDetails h2 {
+  /* background-color:yellowgreen; */
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: #040c26;
+  font-family: 'FuturaPT-Book', serif;
+  font-size: 2.8rem;
+}
+.cardDetails p {
+  /* background-color: cornflowerblue; */
+  color: #040c26;
+  font-family: 'FuturaPT-Book', serif;
+  font-size: 1.8rem;
+  text-align: center;
+}
+.cardDetails ul {
+  padding-left: 6rem;
+  width: 100%;
+  color: #d2151e;
+  margin-top: 3rem;
+}
+.cardDetails li {
+  /* background-color: crimson; */
+  list-style-type: square;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+.cardDetails li a {
+  /* background-color: salmon; */
+  text-decoration: none;
+  text-align: left;
+  color: #040c26;
+  font-size: 1.8rem;
+  font-family: 'FuturaPT-Book', sans-serif;
+  font-weight: 400;
+}
+.cardDetails button {
+  /* background-color: indigo; */
+  background-color: #e7232d;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  margin-left: 1.5rem;
+  margin-top: 3rem;
+  padding: 1rem 2rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+}

@@ -1,0 +1,87 @@
+/* ::::CSS Sequence (6 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: componentContainer */
+/* Step3: component */
+/* Step4: row */
+/* Step5: column */
+/* Step6: contentContainer */
+
+/* Step1: parentContainer */
+/* <header>,<main> & <footer> */
+/* code written in Default CSS */
+
+/* Step2: componentContainer */
+.squareCardContainer {
+  /* background-color: #980893; */
+}
+
+/* Step3: component */
+.squareCard {
+  background-color: #040c26;
+  color: #fff;
+}
+
+/* Step4: row */
+.squareCardBody {
+  /* background-color: #e4bf3cbc; */
+  padding: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+}
+
+/* Step5: column */
+.years {
+  /* background-color: #c0096d; */
+  border: 5px solid #00c5dc;
+  padding: 4rem 2rem;
+}
+
+/* Step6: contentContainer */
+.years p {
+  color: #00c5dc;
+  font-size: 5rem;
+  font-family: "FuturaPT-Book", serif;
+  font-weight: 600;
+}
+.years span {
+  font-family: "NexaBold", sans-serif;
+  font-size: 2.2rem;
+  font-weight: 500;
+  letter-spacing: 0.2rem;
+}
+.products {
+  /* background-color: #2e09c0; */
+  border: 5px solid #ffb822;
+  padding: 4rem 2rem;
+}
+.products p {
+  color: #ffb822;
+  font-size: 5rem;
+  font-family: "FuturaPT-Book", serif;
+  font-weight: 600;
+}
+.products span {
+  font-family: "NexaBold", sans-serif;
+  font-size: 2.2rem;
+  font-weight: 500;
+  letter-spacing: 0.2rem;
+}
+.customers {
+  /* background-color: #09c0a2; */
+  border: 5px solid #ff3c85;
+  padding: 4rem 2rem;
+}
+.customers p {
+  color: #ff3c85;
+  font-size: 5rem;
+  font-family: "FuturaPT-Book", serif;
+  font-weight: 600;
+}
+.customers span {
+  font-family: "NexaBold", sans-serif;
+  font-size: 2.2rem;
+  font-weight: 500;
+  letter-spacing: 0.2rem;
+}
